@@ -1,10 +1,10 @@
 # reading-notes2
 # code 201 Reading-Notes
 
-in this website, you can find all my 201 reading notes
+*in this website, you can find all my 201 reading notes*
  ## table of daily reading assignments
  
- read# | Link
+ **read#**| **Link**
  --------|--------
  read1 |[link1]()
  read2 |[link1]()
