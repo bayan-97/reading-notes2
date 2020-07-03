@@ -6,8 +6,8 @@
  
  **read#**| **Link**
  --------|--------
- read1 |[link1](https://github.com/bayan-97/reading-notes2/edit/master/class1.md)
- read2 |[link1](https://bayan-97.github.io/reading-notes2/class1)
+ read1 |[link1](https://bayan-97.github.io/reading-notes2/class1)
+ read2 |[link1]()
  read3 |[link1]()
  read4 |[link1]()
  read5 |[link1]()
