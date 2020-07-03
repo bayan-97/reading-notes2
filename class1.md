@@ -68,7 +68,9 @@ characters:
  ``<p id = "GfG">Hello geeks<br>``
     ``<p id = "ui">This is unique to this paragraph<br> ``
     ``<p id = "head">This is also unique to this paragraph>``
-- class
+- class:The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.
+  ``<div class="city">``
+
 
 
 - Block-level Elements
@@ -109,6 +111,126 @@ elements
 
 examp: ``<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>``
 
+- meta:
+The ```<meta>`` element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+The metadata will not be displayed on the page, but are used by browsers (how to display content or reload page), by search engines (keywords), and other web services.
+``<meta charset="UTF-8">``
+- iframes :The HTML ``<iframe>`` tag specifies an inline frame.
+An inline frame is used to embed another document within the current HTML document.
+``<iframe src="url" title="description">``
+
+![pic](https://cdn.educba.com/academy/wp-content/uploads/2019/11/Iframes-in-HTML-eg1.png)
+
+ ## HTML5
+ is introducing a new set of
+elements that help define the structure of
+a page.
+![pic](https://www.developer.com/imagesvr_ce/3977/Figure01.png)
+
+HTML5 includes a set of markup elements that overcome this difficulty. These new elements have meaningful names so that just by looking at these elements you get a clear idea about their content. These semantic elements of HTML5 are listed below (this is not an exhaustive list):
+
+`<header>`
+`<footer>`
+`<section>`
+`<article>`
+`<aside>`
+`<nav>`
+
+The ``<header>`` and ``<footer>``
+elements can be used for:
+●● The main header or footer
+that appears at the top or
+bottom of every page on the
+site.
+●● A header or footer for an
+individual ``<article>`` or
+``<section>`` within the page.
 
 
 
+The ``<nav>`` element is used to
+contain the major navigational
+blocks on the site such as the
+primary site navigation.
+Going back to our blog example,
+if you wanted to finish an article
+with links to related blog posts,
+these would not be counted as
+major navigational blocks and
+therefore should not sit inside a
+``<nav>`` element.
+
+
+The ``<article>`` element acts as
+a container for any section of a
+page that could stand alone and
+potentially be syndicated.
+This could be an individual
+article or blog entry, a comment
+or forum post, or any other
+independent piece of content.
+The ``<aside>`` element has two
+purposes, depending on whether
+it is inside an ``<article>``
+element or not.
+When the ``<aside>`` element
+is used inside an ``<article>``
+element, it should contain
+information that is related to the
+article but not essential to its
+overall meaning. For example, a
+pullquote or glossary might be
+considered as an aside to the
+article it relates to.
+
+The ``<section>`` element groups
+related content together, and
+typically each section would
+have its own heading.
+For example, on a homepage
+there may be several ``<section>``
+elements to contain different
+sections of the page, such as
+latest news, top products, and
+newsletter signup.
+# the website 
+**Every website should be designed for the
+target audience—not just for ourself or the
+site owner. It is therefore very important to understand** 
+- *who your target audience is?
+It can be helpful to ask some
+questions about the people you
+would expect to be interested in
+the subject of your site.*
+- *Why People Visit YOUR Website?
+1: The first attempts to discover
+the underlying motivations for
+why visitors come to the site.*
+2: *The second examines the
+specific goals of the visitors.
+These are the triggers making
+them come to the site now.*
+
+ ## *now you need to work out
+what information they need in order to achieve
+their goals quickly and effectively by desgin?*
+1- **The aim is to create a diagram
+of the pages that will be used
+to structure the site. This is
+known as a site map and it will
+show how those pages can be
+grouped.**
+
+![sitmap](https://www.joomlashine.com/images/easyblog_articles/894/Think-ahead-of-your-site-hierachy-structure-before-making-any-sitemap.png)
+
+## WireFrames
+
+*A lot of designers will take the
+elements that need to appear on
+each page and start by creating
+wireframes. This involves
+sketching or shading areas
+where each element of the page
+will go (such as the logo, primary
+navigation, headings and main
+bodies of text, user logins etc).*
