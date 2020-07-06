@@ -289,26 +289,26 @@ variable matches that value.
 ``}``
 # the loop
 
-- ## loop by two way :
+- ## loop by three ways :
 
 1-  **for loop**  :*Loops are handy, if you want to run the same code over and over again, each time with a different value.*
 
 **The for loop has the following syntax:**
 
-**for (statement 1; statement 2; statement 3) {
-  // code block to be executed
-}
-Statement 1 is executed (one time) before the execution of the code block.
+**``for (statement 1; statement 2; statement 3) {``**
+**  ``// code block to be executed``**
+**``}``**
+- Statement 1 is executed (one time) before the execution of the code block.
 
-Statement 2 defines the condition for executing the code block.
+- Statement 2 defines the condition for executing the code block.
 
-Statement 3 is executed (every time) after the code block has been executed**
+- Statement 3 is executed (every time) after the code block has been executed**
 
 2-**while loop**:*The while loop loops through a block of code as long as a specified condition is true.*
 
-**while (condition) {
-  // code block to be executed
-}**
+**``while (condition) {``
+  ``// code block to be executed``
+``}``**
 
 3-**USING DO WHILE LOOPS**:The key difference between
 a whi 1 e loop and a do whi 1 e
