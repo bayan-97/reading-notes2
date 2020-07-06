@@ -477,11 +477,3 @@ true or f al se value.
 2- OR
 ![pic](https://res.cloudinary.com/practicaldev/image/fetch/s--xttyf7r3--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/7d9cf8370380/Image%25202018-11-15%2520at%25209.59.47%2520AM.png)
 
-
-
-
-
-
-
-
-
