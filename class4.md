@@ -268,4 +268,136 @@ organized on a page. Many designers use a grid structure to help them
 position items on a page, and the same is true for web designer.
 
  ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScWOA8O_Xy7ekGVVmMbCBzFHtKBMt0cJrMwQ&usqp=CAU)
+
+ ## CSS Frameworks
+ CSS frameworks aim to make your life easier by providing the code for
+common tasks, such as creating layout grids, styling forms, creating
+printer-friendly versions of pages and so on. You can include the CSS
+framework code in your projects rather than writing the CSS from scratch.
+### Using the 960.GS Grid 
+
+ ![](https://cdn.tutsplus.com/net/uploads/legacy/765_960gsExplanation/09_topsection6.png)
+ The 960.gs style sheet has taken
+care of the layout, creating the
+correct width for the columns
+and setting the spaces between
+them. Therefore, the only rules
+we needed to add are shown on
+this page. These rules:
+●● Control the font and the
+position of the text in the
+boxes
+●● Set the background colors for
+the boxes
+●● Set the height of the feature
+and article boxes
+●● Add a margin to the top and
+bottom of each box.
+
+### multiple style sheets
+**There are two ways to add**
+**multiple style sheets to a page:**
+1- Your HTML page can link
+to one style sheet and that
+stylesheet can use the @import
+rule to import other style sheets.
  
+ ``@import url("tables.css");``
+``@import url("typography.css");``
+2-  In the HTML you can use a
+separate ``<link>`` element for
+each style sheet.
+
+``<link rel="stylesheet" type="text/css"``
+``href="css/site.css" />``
+``<link rel="stylesheet" type="text/css"``
+``href="css/tables.css" />``
+# the javascript
+## WHAT IS A FUNCTION
+
+**Functions let you group a series of statements together to perform a
+specific task. If different parts of a script repeat the same task, you can reuse the function (rather than repeating the same set of st atements).**
+how can i create function?
+
+![pic](https://tutorial.techaltum.com/images/javascript-functions.jpg)
+
+# JavaScript Function Call
+
+The code inside a function is not executed when the function is defined.
+
+The code inside a function is executed when the function is invoked.
+
+It is common to use the term "call a function" instead of "invoke a function".
+
+It is also common to say "call upon a function", "start a function", or "execute a function".
+
+`functionOne(2);`
+## get parameter to the funtion
+
+``function name(parameter1, parameter2, parameter3) {``
+  ``// code to be executed``
+``}``
+
+``var x = myFunction(4, 3);``
+GETTING MULTIPLE VALUES
+OUT OF A FUNCTION
+Functions can return more than one value using an array.
+For example, this function calculates the area and volume of a box.
+``function getSize (width, height, depth) {``
+``var area = width * height;``
+``}``
+``var volume = width * height * depth;``
+``var sizes= [area , volume];``
+``return sizes;``
+### VARIABLE SCOPE
+The location where you declare a variable will affect where it can be used
+within your code. If you declare it within a function, it can only be used
+within that function. This is known as the variable's scope.
+
+#### LOCAL VARIABLES
+When a variable is created inside a function using the
+var keyword, it can only be used in that function.
+It is called a local variable or function-level variable.
+It is said to have local scope or function-level scope.
+It cannot be accessed outside of the function in
+which it was declared. Below, area is a local variable.
+The interpreter creates local variables when the
+function is run, and removes them as soon as the
+function has finished its task. This means that:
+• If the function runs twice, the variable can have
+different values each time.
+• Two different functions can use variables with the
+same name without any kind of naming conflict.
+
+
+ #### GLOBAL VARIABLES
+If you create a variable outside of a function, then it
+can be used anywhere within the script. It is called a
+global variable and has global scope. In the example
+shown, wa 11 Size is a global variable.
+Global variables are stored in memory for as long
+as the web page is loaded into the web browser.
+This means they take up more memory than local
+variables, and it also increases the risk of naming
+conflicts (see next page). For these reasons, you
+should use local variables wherever possible.
+If you forget to declare a variable using the var
+keyword, the variable will work, but it will be treated
+as a global variable (this is considered bad practice).
+**HOW MEMORY &**
+**VARIABLES WORK**
+**Global variables use more memory. The browser has to remember them**
+**for as long as the web page using them is loaded. Local variables are **only**
+**remembered during the period of time that a function is being ****executed**
+# pair programer
+While learning to code, developers likely study several programming languages. Similar to a foreign language class, there are four fundamental skills that help anyone learn a new language: Listening: hearing and interpreting the vocabulary Speaking: using the correct words to communicate an idea Reading: understanding what written language intends to convey Writing: producing from scratch a meaningful. 
+
+During a five-hour paired lab session, Code Fellows students work on all four of these language-specific skills. The abilities they foster will serve them well in completing assignments, in their own communication and learning, in interviews, and in readiness for a job at a company that utilizes this agile practice.
+ 1- **Greater efficiency**
+It is a common misconception that pair programming takes a lot longer and is less efficient. In reality, when two people focus on the same code base, it is easier to catch mistakes in the making. Research indicates that pair programing takes slightly longer, but produces higher-quality code that doesn’t require later effort in troubleshooting and debugging (let alone exposing users to a broken product).
+2-**Engaged collaboration**
+When two programmers focus on the same code, the experience is more engaging and both programmers are more focused than if they were working alone. It is harder to procrastinate or get off track when someone else is relying on you to complete the work. Popping open your Facebook timeline is just that less enticing when someone else is looking at your screen.
+3- **Job interview readiness**
+A common step in many interview processes involves pair programming between a current employee and an applicant, either in person or through a shared screen. They will carry out exercises together, such as code challenges, building a project or feature, or debugging an existing code base. By doing so, companies can get a better feel for how an applicant will fit into the team and their collaboration style.
+4- **Work environment readiness**
+Many companies that utilize pair programing expect to train fresh hires from CS-degree programs on how they operate to actually deliver a product. Code Fellows graduates who are already familiar with how pairing works can hit the ground running at a new job, with one less hurdle to overcome.
