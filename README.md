@@ -14,7 +14,7 @@
  read6 |[link1](https://bayan-97.github.io/reading-notes2/class6)
  read7 |[link1](https://bayan-97.github.io/reading-notes2/class7)
  read8 |[link1](https://bayan-97.github.io/reading-notes2/class8)
- read9 |[link1]()
+ read9 |[link1](https://bayan-97.github.io/reading-notes2/class9)
  read10 |[link1]()
  read11 |[link1]()
  read12 |[link1]()
