@@ -153,5 +153,98 @@ in which your problem is located, you can then try to
 find the actual line of code that is causing the error.
 
 ### BROWSER DEV TOOLS & AVASCRIPT CONSOLE
+ The JavaScript console will tell you when there is a problem with a script,
+where to look for the problem, and what kind of issue it seems to be.
+- CHROME/ OPERA
+On a PC, press the F12 key or:
+1. Go to the options menu (or three line menu icon)
+2. Select Toots or More tools.
  
+3. Select JavaScript Console or Developer Tools
+On a Mac press Alt + Cmd + J. Or:
+
+1. Go to the View menu.
+
+2. Select Developer.
+
+3. Open the JavaScript Console or Developer - 
+
+ 
+ - Tools
+option and select Console.
+INTERNET EXPLORER
+Press the F12 key or:
+1. Go to the settings menu in the top-right.
+2. 
+3. Select developer tools.
+  ### The JavaScript console is just one of severa l developer tools that are found in all modern browsers.
+
+![](https://www.wickedlysmart.com/wp-content/uploads/2014/03/win-chrome-2-1.png)
+
+### WRITING FROM THE SCRIPT TO THE CONSOLE
+Browsers that have a console have a console object, which has several
+methods that your script can use to display data in the console.
+The object is documented in the Console API.
+
+![](https://www.kirupa.com/html5/images/fetch_console2.png)
+
+### BREAKPOINTS
+
+*You can pause the execution of a script on any*
+*line using breakpoints. Then you can checkthe*
+*va lues stored in variables at that point in time.*
+
+If you know your code might fail, use try, catch, and finally.
+Each one is given its own code block.
+
+-**TRY**
+First, you specify the code
+that you t hink might throw an
+exception within the try block.
+If an exception occurs in this
+section of code, control is
+automatically passed to the
+corresponding catch block.
+
+The try clause must be used in
+this type of error handling code,
+and it should always have either
+a catch, fi na 1 ly, or both.
+If you use a continue, break, or
+return keyword inside a try, it
+will go to the f i na 11 y option.
+ 
+- **CATCH**
+If the try code block throws an
+exception, catch steps in with an
+alternative set of code.
+It has one parameter: the error
+object. Although it is optional,
+you are not handling the error if
+you do not catch an error.
+
+The ability to catch an error can
+be very helpful if there is an issue
+on a live website.
+
+It lets you tell users that
+something has gone wrong
+(rather than not informing them
+why the site stopped working).
+- FINALLY
+The contents of the fi na 11 y
+code block will run either
+way - whether the try block
+succeeded or failed.
+It even runs if a return keyword
+is used in the try or catch block.
+It is sometimes used to clean up
+after the previous two clauses.
+These methods are similar
+to the .done(), . fail() , and
+. a 1 ways() methods in jQuery.
+You can nest checks inside each
+other (place another t ry inside a
+catch), but be aware that it can
+affect performance of a script.
 
