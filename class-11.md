@@ -551,3 +551,56 @@ of hosting on offer. We will now
 take a look at some of the key
 things that will help you choose
 which hosting company to use.
+
+## HTML5 video and audio
+
+The`` <video>`` and ``<audio>`` elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this:
+
+``<video controls>``
+  ``<source src="rabbit320.mp4" type="video/mp4">``
+ `` <source src="rabbit320.webm" type="video/webm">``
+  ``<p>Your browser doesn't support HTML5 video. Here is a <a``
+``href="rabbit320.mp4">link to the video</a> instead.</p>``
+``</video>``
+
+ can review what all the HTML features do in the article linked above; for our purposes here, the most interesting attribute is controls, which enables the default set of playback controls. If you don't specify this, you get no playback controls.
+
+ ## The HTMLMediaElement API
+
+ Part of the HTML5 spec, the HTMLMediaElement API provides features to allow you to control video and audio players programmatically — for example ``HTMLMediaElement.play()``,`` HTMLMediaElement.pause()``, etc. This interface is available to both ``<audio>`` and ``<video>`` elements, as the features you'll want to implement are nearly identical. Let's go through an example, adding features as we go.
+
+ ## Implementing the JavaScript
+
+ We've got a fairly complete HTML and CSS interface already; now we just need to wire up all the buttons to get the controls working.
+
+Create a new JavaScript file in the same directory level as your index.html file. Call it custom-player.js.
+
+## Playing and pausing the video
+Let's implement probably the most important control — the play/pause button.
+
+First of all, add the following to the bottom of your code, so that the playPauseMedia() function is invoked when the play button is clicked:
+
+``play.addEventListener('click', playPauseMedia);``
+
+## Stopping the video
+
+et's add functionality to handle stopping the video. Add the following ``addEventListener()`` lines below the previous one you added:
+
+``stop.addEventListener('click', stopMedia);``
+``media.addEventListener('ended', stopMedia);``
+
+
+The click event is obvious — we want to stop the video by running our stopMedia() function when the stop button is clicked. We do however also want to stop the video when it finishes playing — this is marked by the ended event firing, so we also set up a listener to run the function on that event firing too.
+
+ let's define stopMedia() — add the following function below ``
+ playPauseMedia():
+
+``function stopMedia() {``
+  ``media.pause();``
+  ``media.currentTime = 0;``
+  ``play.setAttribute('data-icon','P');``
+``}``
+
+there is no stop() method on the HTMLMediaElement API — the equivalent is to pause() the video, and set its currentTime property to 0. Setting currentTime to a value (in seconds) immediately jumps the media to that position.
+
+All there is left to do after that is to set the displayed icon to the "play" icon. Regardless of whether the video was paused or playing when the stop button is pressed, you want it to be ready to play afterwards.
