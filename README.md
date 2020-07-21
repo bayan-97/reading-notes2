@@ -19,5 +19,5 @@
  read11 |[link1](https://bayan-97.github.io/reading-notes2/class-11)
  read12 |[link1](https://bayan-97.github.io/reading-notes2/class12)
  read13 |[link1](https://bayan-97.github.io/reading-notes2/class13)
- read14 |[link1]()
+ read14 |[link1](https://bayan-97.github.io/reading-notes2/class14)
  read15 |[link1]()
