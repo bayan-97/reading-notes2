@@ -1,22 +1,3 @@
-# What Google Learned From Its Quest to Build the Perfect Team
-
-*A classmate* : that some students were putting together teams for ‘‘case competitions,’’ contests in which participants proposed solutions to real-world business problems that were evaluated by judges, who awarded trophies and cash. 
-
-*The competitions were voluntary,*
- but the work wasn’t all that different from what Rozovsky did with her study group: conducting lots of research and financial analyses, writing reports and giving presentations. 
- 
- project Aristotle’s researchers 
- reviewing a half-century of academic studies looking at how teams worked. Were the best teams made up of people with similar interests? Or did it matter more whether everyone was motivated by the same kinds of rewards? Based on those studies, 
- 
- **imagine you have**
-
- een invited to join one of two groups.
-
-Team A is composed of people who are all exceptionally smart and successful. When you watch a video of this group working, you see professionals who wait until a topic arises in which they are expert, and then they speak at length, explaining what the group ought to do. When someone makes a side comment, the speaker stops, reminds everyone of the agenda and pushes the meeting back on track. This team is efficient. There is no idle chitchat or long debates. The meeting ends as scheduled and disbands so everyone can get back to their desks.
-
-
-the technology industry 
- not just one of the fastest growing parts of our economy; it is also increasingly the world’s dominant commercial culture. 
 
 
  # Transforms
@@ -250,46 +231,28 @@ The code above, as with the rest of the code samples in this lesson, are not ven
 
 For reference, the prefixed version of the code above would look like the following.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-.box {
-    background: #2db34a;
-    -webkit-transition-property: background;
-       -moz-transition-property: background;
-         -o-transition-property: background;
-            transition-property: background;
-    -webkit-transition-duration: 1s;
-       -moz-transition-duration: 1s;
-         -o-transition-duration: 1s;
-            transition-duration: 1s;
-    -webkit-transition-timing-function: linear;
-       -moz-transition-timing-function: linear;
-         -o-transition-timing-function: linear;
-            transition-timing-function: linear;
-}
-.box:hover {
-  background: #ff7b29;
-}
+
+`.box {`
+    ``background: #2db34a;``
+    `-webkit-transition-property: background;`
+     `-moz-transition-property: background;`
+    ` -o-transition-property: background;`
+    `transition-property: background;`
+    `-webkit-transition-duration: 1s;`
+    ``-moz-transition-duration: 1s;``
+    `-o-transition-duration: 1s;`
+     `transition-duration: 1s;`
+  ` -webkit-transition-timing-function: ` `linear;`
+    ``-moz-transition-timing-function: linear;``  
+    ``-o-transition-timing-function: linear;``
+   ` transition-timing-function: linear;`
+`}`
+`.box:hover {`
+  `background: #ff7b29;`
+`}`
 
                 
-Transitional Property
+- Transitional Property
 The transition-property property determines exactly what properties will be altered in conjunction with the other transitional properties. By default, all of the properties within an element’s different states will be altered upon change. However, only the properties identified within the transition-property value will be affected by any transitions.
 
 In the example above, the background property is identified in the transition-property value. Here the background property is the only property that will change over the duration of 1 second in a linear fashion. Any other properties included when changing an element’s state, but not included within the transition-property value, will not receive the transition behaviors as set by the transition-duration or transition-timing-function properties.
@@ -323,29 +286,6 @@ When transitioning multiple properties you can set multiple durations, one for e
 
 If multiple properties are being transitioned with only one duration value declared, that one value will be the duration of all the transitioned properties.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-.box {
-  background: #2db34a;
-  border-radius: 6px;
-  transition-property: background, border-radius;
-  transition-duration: .2s, 1s;
-  transition-timing-function: linear;
-}
-.box:hover {
-  background: #ff7b29;
-  border-radius: 50%;
-}
 
               
 Transition Duration Demo
@@ -396,31 +336,6 @@ Transition Timing Demo
 Transition Delay
 On top of declaring the transition property, duration, and timing function, you can also set a delay with the transition-delay property. The delay sets a time value, seconds or milliseconds, that determines how long a transition should be stalled before executing. As with all other transition properties, to delay numerous transitions, each delay can be declared as comma separated values.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-.box {
-  background: #2db34a;
-  border-radius: 6px
-  transition-property: background, border-radius;
-  transition-duration: .2s, 1s;
-  transition-timing-function: linear, ease-in;
-  transition-delay: 0s, 1s;
-}
-.box:hover {
-  background: #ff7b29;
-  border-radius: 50%;
-}
 
               
 Transition Delay Demo
@@ -430,145 +345,7 @@ Declaring every transition property individually can become quite intensive, esp
 
 To set numerous transitions at once, set each individual group of transition values, then use a comma to separate each additional group of transition values.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-.box {
-  background: #2db34a;
-  border-radius: 6px;
-  transition: background .2s linear, border-radius 1s ease-in 1s;
-}
-.box:hover {
-  color: #ff7b29;
-  border-radius: 50%;
-}
 
-              
-Shorthand Transitions Demo
-
-Transitional Button
-HTML
-1
-2
-<button>Awesome Button</button>
-
-                
-CSS
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-button {
-  border: 0;
-  background: #0087cc;
-  border-radius: 4px;
-  box-shadow: 0 5px 0 #006599;
-  color: #fff;
-  cursor: pointer;
-  font: inherit;
-  margin: 0;
-  outline: 0;
-  padding: 12px 20px;
-  transition: all .1s linear;
-}
-button:active {
-  box-shadow: 0 2px 0 #006599;
-  transform: translateY(3px);
-}
-
-                
-Demo
-
-Card Flip
-HTML
-1
-2
-3
-4
-5
-6
-7
-<div class="card-container">
-  <div class="card">
-    <div class="side">...</div>
-    <div class="side back">...</div>
-  </div>
-</div>
-
-                
-CSS
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-.card-container {
-  height: 150px;
-  perspective: 600;
-  position: relative;
-  width: 150px;
-}
-.card {
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
-  width: 100%;
-}
-.card:hover {
-  transform: rotateY(180deg);
-}
-.card .side {
-  backface-visibility: hidden;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-.card .back {
-  transform: rotateY(180deg);
-}
 
                 
 Demo
@@ -579,35 +356,21 @@ Transitions do a great job of building out visual interactions from one state to
 Animations Keyframes
 To set multiple points at which an element should undergo a transition, use the @keyframes rule. The @keyframes rule includes the animation name, any animation breakpoints, and the properties intended to be animated.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-@keyframes slide {
-  0% {
-    left: 0;
-    top: 0;
-  }
-  50% {
-    left: 244px;
-    top: 100px;
-  }
-  100% {
-    left: 488px;
-    top: 0;
-  }
-}
+
+`@keyframes slide {`
+`  0% {`
+   ` left: 0;`
+  `  top: 0;`
+  `}`
+  `50% {`
+    `left: 244px;`
+  `  top: 100px;`
+`  }`
+ ` 100% {`
+    `left: 488px;`
+   ` top: 0;`
+  `}`
+`}`
 
               
 Vendor Prefixing the Keyframe Rule
@@ -706,7 +469,68 @@ This effect is achieved by adding a box shadow, and then moving the element on t
         `transform: translateX(-3px);`
 `}`
 
-# 6 enimated 
+
+# What Google Learned From Its Quest to Build the Perfect Team
+
+*A classmate* : that some students were putting together teams for ‘‘case competitions,’’ contests in which participants proposed solutions to real-world business problems that were evaluated by judges, who awarded trophies and cash. 
+
+*The competitions were voluntary,*
+ but the work wasn’t all that different from what Rozovsky did with her study group: conducting lots of research and financial analyses, writing reports and giving presentations. 
+ 
+ project Aristotle’s researchers 
+ reviewing a half-century of academic studies looking at how teams worked. Were the best teams made up of people with similar interests? Or did it matter more whether everyone was motivated by the same kinds of rewards? Based on those studies, 
+ 
+
+## our data-saturated age
+
+enables us to examine our work habits and office quirks with a scrutiny that our cubicle-bound forebears could only dream of. Today, on corporate campuses and within 
+
+university laboratories, psychologists, sociologists and statisticians are devoting themselves to studying everything from team composition to email patterns in order to figure out how to make employees into faster, better and more productive versions of themselves. 
+
+The company’s top executives long believed that building the best teams meant combining the best people.
+
+## project Aristotle’s researchers 
+No matter how researchers arranged the data, though, it was almost impossible to find patterns — or any evidence that the 
+
+composition of a team made any difference. ‘‘We looked at 180 teams from all over the company,’’ Dubey said. ‘‘We had lots of data, 
+
+but there was nothing showing that a mix of specific personality types or skills or backgrounds made any difference. The ‘who’ part of the equation didn’t seem to matter.’’
+
+After looking at over a hundred groups for more than a year, Project Aristotle researchers concluded that understanding and 
+
+influencing group norms were the keys to improving Google’s teams. But Rozovsky, now a lead researcher, needed to figure out which norms mattered most. Google’s research had identified dozens of behaviors that seemed important, except that sometimes the norms of one effective team contrasted sharply with those of another equally successful group.
+
+
+
+ **imagine you have**
+
+ been invited to join one of two groups.
+
+Team A is composed of people who are all exceptionally smart and successful. When you watch a video of this group working, you see professionals who wait until a topic arises in which they are expert, and then they speak at length, explaining what the group ought to do. When someone makes a side comment, the speaker stops, reminds everyone of the agenda and pushes the meeting back on track. This team is efficient. There is no idle chitchat or long debates. The meeting ends as scheduled and disbands so everyone can get back to their desks.
+
+What interested the researchers most, however, was that teams that did well on one assignment usually did well on all the others. Conversely, teams that failed at one 
+
+
+thing seemed to fail at everything. The researchers eventually concluded that what distinguished the ‘‘good’’ teams from the dysfunctional groups was how teammates treated one another. The right norms, in other words, could raise a group’s collective intelligence, whereas the wrong norms could hobble a team, even if, individually, all the members were exceptionally bright.
+
+##  the technology industry 
+ 
+ not just one of the fastest growing parts of our economy; it is also increasingly the world’s dominant commercial culture. 
+ The fact that these insights aren’t wholly original doesn’t mean Google’s contributions 
+ 
+ aren’t valuable. In fact, in some ways, the ‘‘employee performance optimization’’ movement has given us a method for talking about our insecurities, fears and aspirations in more constructive ways. It also has given us the tools to quickly teach 
+ 
+ lessons that once took managers decades to absorb. Google, in other words, in its race to build the perfect team, has perhaps unintentionally demonstrated the usefulness of imperfection and done what Silicon Valley does best: figure out how to create psychological safety faster, better and in more productive ways.
+
+If this had happened earlier in Rozovsky’s life — if it had occurred while she was at Yale, for instance, in her study group — she 
+
+**probably wouldn’t have known how to deal with** 
+
+**those feelings. The email wasn’t a big enough**
+**affront to justify a response. But all the**
+**same, it really bothered her. It was**
+**something she felt she needed to address.**
+
 
 
 
