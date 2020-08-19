@@ -1,8 +1,12 @@
 # reading-notes
 
 *in this website, you can find all my reading notes*
+
  # table of daily reading assignments
+
  ## Code 201 - Foundations of Software Development
+
+
  **read#**| **Link**
  --------|--------
  read1 |[link1](https://bayan-97.github.io/reading-notes2/class1)
@@ -23,6 +27,8 @@
  read15 |[link1]()
 
  ## Code 301 - Intermediate Software Development
+
+ 
  **read#**| **Link**
  --------|--------
          |
