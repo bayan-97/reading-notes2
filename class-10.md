@@ -1,5 +1,5 @@
 #
-### ORDER OF EXECUTION
+### ORDER OF EXECUTION 
 To find the source of an error, it helps to know how scripts are processed.
 
 The order in which statements are executed can be complex; some tasks
