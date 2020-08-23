@@ -32,4 +32,5 @@
  
  **read#**| **Link**
  --------|--------
-         |
+  read1   |https://bayan-97.github.io/reading-notes2/class301/class3011
+      read2  |https://bayan-97.github.io/reading-notes2/class301/class3012
