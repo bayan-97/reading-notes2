@@ -46,3 +46,29 @@ This establishes the main-axis, thus defining the direction flex items are place
  out either in horizontal rows or vertical columns.
 
  ``.container {flex-direction: row | row-reverse | column | column-reverse;}``
+
+
+ ## flex-wrap
+
+By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.
+
+``.container {flex-wrap: nowrap | wrap | wrap-reverse;}``
+
+- nowrap (default): all flex items will be on one line
+ 
+- wrap: flex items will wrap onto multiple lines, from top to bottom.
+
+- wrap-reverse: flex items will wrap onto multiple lines from bottom to top.
+
+## flex-shrink
+
+
+
+``.item {flex-shrink: 3; /* default 1 */}``
+
+## flex
+
+This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. The default is 0 1 auto, but if you set it with a single number value, it’s like 1 0.
+
+``.item {flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]``
+
