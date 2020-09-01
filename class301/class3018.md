@@ -1,6 +1,6 @@
 # SQL
 
-![](https://sqlbolt.com/cs/images/favicon.pngS)
+![](https://sqlbolt.com/cs/images/favicon.pngS                                            c   c )
 
 **SQL, or Structured Query Language,** is a language designed to allow both technical and non-technical users query, manipulate, and transform data from a relational database. And due to its simplicity, SQL databases provide safe and scalable storage for millions of websites and mobile applications.
 
