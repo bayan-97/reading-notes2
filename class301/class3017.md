@@ -53,6 +53,41 @@ But this is a very recent change! Just a few years ago, the large majority of de
  Nouns weren't universal and verbs weren't polymorphic. They basically ignored throwing out decades of real field usage and proven technique and kept starting over with something that looks a lot like other systems that have failed in the past. They used HTTP but only because it let them talk to our network and security people less. It was like trading simplicity for flashy tools and wizards.
 
 
+# APIs
 
+An application programming interface (API) is a computing interface which defines interactions between multiple software intermediaries.
 
+ It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc. It can also provide extension mechanisms so that users can extend existing functionality in various ways and to varying degrees.
+ 
+  An API can be entirely custom, specific to a component, or it can be designed based on an industry-standard to ensure interoperability. 
+  
+  Through information hiding, APIs enable modular programming, which allows users to use the interface independently of the implementation.
 
+  ## Purpose
+
+  In building applications, an API (application programming interface) simplifies programming by abstracting the underlying implementation and only exposing objects or actions the developer needs. 
+  
+  While a graphical interface for an email client might provide a user with a button that performs all the steps for fetching and highlighting new emails, an API for file input/output might give the developer a function that copies a file from one location to another without requiring that the developer understand the file system operations occurring behind the scenes.
+
+  ## Operating systems
+  
+
+An API can specify the interface between an application and the operating system. for example, specifies a set of common APIs that aim to enable an application written for a POSIX conformant operating system to be compiled for another POSIX conformant operating system.
+
+Linux and Berkeley Software Distribution are examples of operating systems that implement the POSIX APIs.
+
+Microsoft has shown a strong commitment to a backward-compatible API, particularly within its Windows API (Win32) library, so older applications may run on newer versions of Windows using an executable-specific setting called "Compatibility Mode".
+
+An API differs from an application binary interface (ABI) in that an API is source code based while an ABI is binary based. For instance, POSIX provides APIs while the Linux Standard Base provides an ABI.
+
+## Remote APIs
+
+Remote APIs allow developers to manipulate remote resources through protocols, specific standards for communication that allow different technologies to work together, regardless of language or platform. 
+
+For example, the Java Database Connectivity API allows developers to query many different types of databases with the same set of functions, while the Java remote method invocation API uses the Java Remote Method Protocol to allow invocation of functions that operate remotely, but appear local to the developer
+
+Therefore, remote APIs are useful in maintaining the object abstraction in object-oriented programming; a method call, executed locally on a proxy object, invokes the corresponding method on the remote object, using the remoting protocol, and acquires the result to be used locally as a return value.
+
+A modification on the proxy object also will result in a corresponding modification on the remote object.
+
+![](https://imgs.developpaper.com/imgs/2899688687-5d07315980597_articlex.png)
