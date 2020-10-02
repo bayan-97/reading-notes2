@@ -2,8 +2,10 @@
 
 *in this website, you can find all **my reading notes***
 
- #  table of daily reading assignments
- ##  Code 201 - Foundations of Software Development
+ # table of daily reading assignments
+
+ 
+ ## Code 201 - Foundations of Software Development
 
 
  **read#**| **Link**
