@@ -1,8 +1,9 @@
 
- #  map method
+#  map method
 
  *The map() method creates a new array populated with the results of calling a*
   *provided function on every element in the calling array.*
+  A Map object iterates its elements in insertion order — a for...of loop returns an array of [key, value] for each iteration.
 
 `const array1 = [1, 4, 9, 16];`
 
@@ -14,9 +15,10 @@
 `// expected output: Array [2, 8, 18, 32]`
 
 
- #  reduce method
+#  reduce method
  
 *The reduce() method executes a reducer function (that you provide) on each* *element of the array, resulting in single output value.*
+Reduce comes with some terminology such as reducer & accumulator. The accumulator is the value that we end with and the reducer is what action we will perform in order to get to one value.
 
 `const array1 = [1, 2, 3, 4];`
 `const reducer = (accumulator, currentValue) => accumulator + currentValue;`
