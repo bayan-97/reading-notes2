@@ -67,7 +67,7 @@ A Promise is a proxy for a value not necessarily known when the promise is creat
 
  [](https://mdn.mozillademos.org/files/15911/promises.png)
 
- # Are all callback functions considered to be Asynchronous? Why or Why Not?
+ ##  Are all callback functions considered to be Asynchronous? Why or Why Not?
 
 
  Simply taking a callback doesn't make a function asynchronous.Calling the argument function is performed as part of normal step-by-step sequential execution of statements .but for a function to be asynchronous it needs to perform an asynchronous operation.
