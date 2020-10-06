@@ -1,24 +1,29 @@
- #  Array.map() 
 
- *The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.*
+ #   Array.map() 
+
+ *The map() method creates a new array populated with the results of calling a*
+  *provided function on every element in the calling array.*
 
 `const array1 = [1, 4, 9, 16];`
 
 `// pass a function to map`
+
 `const map1 = array1.map(x => x * 2);`
 
 `console.log(map1);`
 `// expected output: Array [2, 8, 18, 32]`
 
- # Array.reduce() 
 
-
-*The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.*
+ #  Array.reduce()
+ 
+*The reduce() method executes a reducer function (that you provide) on each* *element of the array, resulting in single output value.*
 
 `const array1 = [1, 2, 3, 4];`
 `const reducer = (accumulator, currentValue) => accumulator + currentValue;`
 `// 1 + 2 + 3 + 4`
+
 `console.log(array1.reduce(reducer));`
+
 `// expected output: 10`
 
 #  how to use superagent() to fetch data from a URL and log the result
@@ -67,10 +72,13 @@ A Promise is a proxy for a value not necessarily known when the promise is creat
 
  [](https://mdn.mozillademos.org/files/15911/promises.png)
 
- ##  Are all callback functions considered to be Asynchronous? Why or Why Not?
+#  Are all callback functions considered to be Asynchronous? Why or Why Not?
+ 
 
 
- Simply taking a callback doesn't make a function asynchronous.Calling the argument function is performed as part of normal step-by-step sequential execution of statements .but for a function to be asynchronous it needs to perform an asynchronous operation.
+ Simply taking a callback doesn't make a function asynchronous.Calling the argument function is performed as part of normal step-by-step sequential execution of statements 
+ 
+ .but for a function to be asynchronous it needs to perform an asynchronous operation.
 
 
 
