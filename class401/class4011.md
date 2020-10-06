@@ -1,5 +1,5 @@
 
- #   Array.map() 
+ #  map method
 
  *The map() method creates a new array populated with the results of calling a*
   *provided function on every element in the calling array.*
@@ -14,7 +14,7 @@
 `// expected output: Array [2, 8, 18, 32]`
 
 
- #  Array.reduce()
+ #  reduce method
  
 *The reduce() method executes a reducer function (that you provide) on each* *element of the array, resulting in single output value.*
 
@@ -72,7 +72,7 @@ A Promise is a proxy for a value not necessarily known when the promise is creat
 
  [](https://mdn.mozillademos.org/files/15911/promises.png)
 
-#  Are all callback functions considered to be Asynchronous? Why or Why Not?
+#  Are all callback functions considered to be Asynchronous? Why or Why Not
  
 
 
