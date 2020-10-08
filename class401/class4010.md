@@ -1,6 +1,6 @@
 # Solve Programming Problems
 
-1. Read the problem completely twice
+  1. Read the problem completely twice
 
 **This is the single most important step**.  You may even want to read the problem 3 or 4 times.
 
@@ -9,7 +9,7 @@ You want to make sure you completely understand the problem.  A good test of thi
 If you are given any examples along with the problem, make sure you have worked through the examples and understand why the answers are correct for each one.
 
 
-2. Solve the problem manually
+ 2. Solve the problem manually
 
 It is very important to solve the problem manually first, so that you know what you are going to automate, otherwise you are just slinging code around.  Which while can be fun, will make you look like an idiot in a programming interview and will probably cause you to sweat profusely.
 
@@ -23,7 +23,7 @@ If I give you a string “Zebra”, and ask you to reverse it, most people will 
 - Put “r” down as the 2nd letter.  (Why –> because it is the next letter backwards from the last letter we copied)
 - Put “b” down as the 3rd letter.  (Why –> same as above)
 
-3. Optimize the manual solution
+ 3. Optimize the manual solution
 
 It’s well worth the effort to try and optimize the actual solution or simplify it when it is still in the most easily malleable state.
 
@@ -36,13 +36,13 @@ We should be able to immediately recognize that we can use a loop here to reduce
 3. Append the current letter to the new word
 4. If there is a previous letter, make the previous letter the current letter and start back at 3.
 
-4. Write pseudo-code or comments
+ 4. Write pseudo-code or comments
 
 Many times you can skip this step if you have a really good handle on the problem or your previous steps already created a detailed enough description of the solution that coding it is already a 1 to 1 translation.
 
 If you are a beginner or struggle with these kinds of problems, I would go ahead and take the time to do this step anyway though.
 
-5. Replace comments with real code
+ 5. Replace comments with real code
 
 This step should be extremely easy at this point.  If you have done all the other steps, this step involves no problem solving at all.
 
@@ -55,7 +55,7 @@ All we do here is take each comment and convert it into a real line of code.
 `return newWord;`
 
 
-6. Optimize the real code
+ 6. Optimize the real code
 
 
 Sometimes this step isn’t necessary, but it’s worth taking a look at your code and figuring out if you can cut out a few lines or do something simpler.
