@@ -1,10 +1,7 @@
 
 #  map method
 
- *The map() method creates a new array populated with the results of calling a*
-  *provided function on every element in the calling array.*
-  A Map object iterates its elements in insertion order — a for...of loop returns an array of [key, value] for each iteration.
-
+ *The map() method  by it can enter to array to each elelment and index it .return array by array has the same lenght 
 `const array1 = [1, 4, 9, 16];`
 
 `// pass a function to map`
@@ -18,8 +15,8 @@
 
 #  reduce method
  
-*The reduce() method executes a reducer function (that you provide) on each* *element of the array, resulting in single output value.*
-Reduce comes with some terminology such as reducer & accumulator. The accumulator is the value that we end with and the reducer is what action we will perform in order to get to one value.
+*The reduce() method take  each* *element of the array, resulting in single output value. and has 
+accumulator to response by it 
 
 `const array1 = [1, 2, 3, 4];`
 `const reducer = (accumulator, currentValue) => accumulator + currentValue;`
@@ -82,6 +79,69 @@ A Promise is a proxy for a value not necessarily known when the promise is creat
  Simply taking a callback doesn't make a function asynchronous.Calling the argument function is performed as part of normal step-by-step sequential execution of statements 
  
  .but for a function to be asynchronous it needs to perform an asynchronous operation.
+
+
+
+
+## Which 3 things had you heard about previously and now have better clarity on?
+
+1- superagent idea
+2- callback 
+3- then method
+## Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
+
+1. async / await syntax
+2. npm
+3. node.js 
+
+## What are you most excited about trying to implement or see how it works?
+
+## What is Node.js 
+
+- Node.js is an open source server environment
+- Node.js is free
+- Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+- Node.js uses JavaScript on the server
+![](https://www.freecodecamp.org/news/content/images/2019/06/1_sYPllpcAZLHmpuQSRPuO0Q.png)
+
+`Node.js uses asynchronous programming!`
+
+## Node.js handles a file request:
+
+1.  Sends the task to the computer's file system.
+2. Ready to handle the next request.
+3. When the file system has opened and read the file, the server returns the content to the client.
+
+- Node.js Do
+
+1. Node.js can generate dynamic page content
+2. Node.js can create, open, read, write, delete, and close files on the server.
+
+## npm
+
+
+ - *npm consists of three distinct components*:
+
+   - **the website**: Use the website to discover packages, set up profiles, and manage other aspects of your npm experience. For example, you can set up Orgs (organizations) to manage access to public or private packages.
+
+   - **the Command Line Interface (CLI)**:  
+The CLI runs from a terminal, and is how most developers interact with npm.
+
+   - **the registry**:
+The registry is a large public database of JavaScript software and the meta-information surrounding it.
+
+## Use npm to
+
+- Adapt packages of code for your apps, or incorporate packages as they are.
+
+- Download standalone tools you can use right away.
+
+- Run packages without downloading using npx.
+
+- Share code with any npm user, anywhere.
+
+- Restrict code to specific developers.
+
 
 
 
