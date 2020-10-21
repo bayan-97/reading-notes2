@@ -5,12 +5,24 @@
 
 1. How does route prefixing work with an external routing module?
 
+Simple applications can define all their routes in a single configuration file - usually config/routes.yaml (see Creating Routes). However, in most applications it’s common to import routes definitions from different resources: PHP annotations in controller files, YAML or XML files stored in some directory. 
+  Prefixing the URLs of Imported Routes¶
+You can also choose to provide a “prefix” for the imported routes. For example, suppose you want to prefix all application routes with /site (e.g. /site/blog/{slug} instead of /blog/{slug}).
 
 2. When routing, what’s the difference between app.get('/data/:id') and app.get('/data/:name')?
+
+the request prams differt it  id ` /data/:id ` it name `/data/:name`
+
 3. Explain how Express handles routing conflicts?
+Execute any code.
+Make changes to the request and the response objects.
+End the request-response cycle.
+Call the next middleware function in the stack.
+
 4. What are the ways that a browser can send “data” or request variables to an HTTP server
 
-
+- As a suffix on the URL given by the ACTION attribute
+- As a multipart MIME message
 
 1. Which 3 things had you heard about previously and now have better clarity on?
 
